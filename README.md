@@ -28,11 +28,11 @@ The program utilizes DNA datasets sourced from the National Center for Biotechno
 
 |    C- Single Query & Multiple Reference   |  C- Multiple Query & Multiple Reference   |
 | ----------------------------------------- | ----------------------------------------- |
-|  ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/4c8a941a1cb7277bfbdd0dc9e6583f211c4f68b4/image/C-sq-mr.png) | ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/b781e3793e56de4a8152779d2b5f08ce458980aa/image/C-mq-mr.png) |
+|  ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/4c8a941a1cb7277bfbdd0dc9e6583f211c4f68b4/image/C-sq-mr.png) | ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/b781e3793e56de4a8152779d2b5f08ce458980aa/image/C-mq-mr.png) ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/b781e3793e56de4a8152779d2b5f08ce458980aa/image/Cmm-new.png) |
 
 |    CUDA- Single Query & Multiple Reference   |  CUDA- Multiple Query & Multiple Reference   |
 | ----------------------------------------- | ----------------------------------------- |
-|  ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/4c8a941a1cb7277bfbdd0dc9e6583f211c4f68b4/image/CUDAsm-result.png) | ![image alt]() |
+|  ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/4c8a941a1cb7277bfbdd0dc9e6583f211c4f68b4/image/CUDAsm-result.png) | ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/1cd45b8688a66018a3249561df18c9d5018b4e41/image/CUDAmm-result.png) ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/1cd45b8688a66018a3249561df18c9d5018b4e41/image/CUDAmm-new.png) |
 
 ---
 ### **iii.) Screenshot of the Code (C)**
@@ -58,13 +58,14 @@ This section shows the parallelized implementation of the algorithm in CUDA. The
 
 # Performance Comparison: C vs. CUDA
 
-| Implementation                                  | Average Execution Time (ms) | Error(s) | Loops | No. of Query | No. of Reference |
+| Implementation                                  | Average Execution Time (ms) | Error(s) | Loops | No. of Queries | No. of References |
 |-------------------------------------------------|--------------------|---------|-------|------------|------------|
 | **C (Single Query & Multiple Reference)**       |      20.6381             |     0   |   10   |      1     |     87     |     
 | **C (Multiple Query & Multiple Reference)**     |           57.957         |     0   |   10   |      3     |     87     |
+| **C (Multiple Query & Multiple Reference)**     |           164.0482         |     0   |   10   |      10     |     87     |
 | **CUDA (Single Query & Multiple Reference)**    |         4.1042           |     0   |   10   |      1     |      87     |
 | **CUDA (Multiple Query & Multiple Reference)**  |         3.7719           |     0   |   10   |      3     |      87    |
-| **CUDA (Multiple Query & Multiple Reference)**  |         3.7719           |     0   |   10   |      10     |      87    |
+| **CUDA (Multiple Query & Multiple Reference)**  |         4.1299           |     0   |   10   |      10     |      87    |
 
 Length of References: 5k - 17k characters
 ## Analysis
