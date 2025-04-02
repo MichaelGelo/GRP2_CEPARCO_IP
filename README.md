@@ -39,7 +39,7 @@ The program utilizes DNA datasets sourced from the National Center for Biotechno
 
 |    C- Single Query & Multiple Reference   |  C- Multiple Query & Multiple Reference   |
 | ----------------------------------------- | ----------------------------------------- |
-|  ![image alt](picture here) | ![image alt](picture here) |
+|  ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/c6072b6269867522ba91176e041ca585818046b6/image/Csqmr-main.png) | ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/c6072b6269867522ba91176e041ca585818046b6/image/Cmqmr-main.png) |
 
 Description here
 
