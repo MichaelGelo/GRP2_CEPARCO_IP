@@ -58,19 +58,19 @@ This section shows the parallelized implementation of the algorithm in CUDA. The
 
 # Performance Comparison: C vs. CUDA
 
-| Implementation                                  | Average Execution Time (ms) | Error(s) | Loops | No. of Queries | No. of References |
-|-------------------------------------------------|--------------------|---------|-------|------------|------------|
-| **C (Single Query & Multiple Reference)**       |      20.6381             |     0   |   10   |      1     |     87     |     
-| **C (Multiple Query & Multiple Reference [3] )**     |           57.957         |     0   |   10   |      3     |     87     |
-| **C (Multiple Query & Multiple Reference [10] )**     |           164.0482         |     0   |   10   |      10     |     87     |
-| **CUDA (Single Query & Multiple Reference)**    |         4.1042           |     0   |   10   |      1     |      87     |
-| **CUDA (Multiple Query & Multiple Reference [3] )**  |         3.7719           |     0   |   10   |      3     |      87    |
-| **CUDA (Multiple Query & Multiple Reference [10] )**  |         4.1299           |     0   |   10   |      10     |      87    |
+| Implementation                                  | Average Execution Time (ms) | Error(s) | Loops | No. of Queries | No. of References | Speedup Ratio |
+|-------------------------------------------------|--------------------|---------|-------|------------|------------|------------|
+| **C (Single Query & Multiple Reference)**       |      20.6381             |     0   |   10   |      1     |     87     |  1x |   
+| **C (Multiple Query & Multiple Reference [3] )**     |           57.957         |     0   |   10   |      3     |     87     | 1x |
+| **C (Multiple Query & Multiple Reference [10] )**     |           164.0482         |     0   |   10   |      10     |     87     | 1x |
+| **CUDA (Single Query & Multiple Reference)**    |         4.1042           |     0   |   10   |      1     |      87     | 5.0285x |
+| **CUDA (Multiple Query & Multiple Reference [3] )**  |         3.7719           |     0   |   10   |      3     |      87    | 15.3655x |
+| **CUDA (Multiple Query & Multiple Reference [10] )**  |         4.1299           |     0   |   10   |      10     |      87    | 39.722x |
 
 Length of References: 5k - 17k characters
 ## Analysis
 
-Based on the results, the performance of the CUDA program with parallelization is faster than the C program for both single query and multiple query versions. The CUDA implementation of the program for single query and multiple reference is 5.0285 times faster that the implementation in C. Similarly, the CUDA code for multiple query and multiple reference is 15.3655 times faster than the C implmentation with 3 queries. The execution time for a dataset of 10 queries give a speedup time of 39 times when compared to the time of the C implmentation. These results prove that as the number of data to be processed increases, through query or through reference count, the speedup of the parallel execution when compared to the sequential execution increases. This shows that the sequential execution of the code struggles as the data increases, showing an almost exponential increase in processing times. The parallelized implementation of the data, on the other hand, is shown to be in a similar range in its implementation of the multiple queries. These results can prove that the amount of data that being processed is being handled well by the CUDA program and there is not any noticeable increase in the execution time in that data range. The lack of noticeable increase in the execution time could mean that the CUDA program is still not utililzing all of the threads that were set, showcasing that it is still able to handle the increase in the amount of data to process.
+Based on the results, the performance of the CUDA program with parallelization is faster than the C program for both single query and multiple query versions. The CUDA implementation of the program for single query and multiple reference is 5.0285 times faster that the implementation in C. Similarly, the CUDA code for multiple query and multiple reference is 15.3655 times faster than the C implmentation with 3 queries. The execution time for a dataset of 10 queries give a speedup time of 39.722 times when compared to the time of the C implmentation. These results prove that as the number of data to be processed increases, through query or through reference count, the speedup of the parallel execution when compared to the sequential execution increases. This shows that the sequential execution of the code struggles as the data increases, showing an almost exponential increase in processing times. The parallelized implementation of the data, on the other hand, is shown to be in a similar range in its implementation of the multiple queries. These results can prove that the amount of data that being processed is being handled well by the CUDA program and there is not any noticeable increase in the execution time in that data range. The lack of noticeable increase in the execution time could mean that the CUDA program is still not utililzing all of the threads that were set, showcasing that it is still able to handle the increase in the amount of data to process.
 
 ---
 ### **vi.) Discussion**
