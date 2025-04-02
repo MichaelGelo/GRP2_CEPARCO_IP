@@ -61,11 +61,11 @@ This section shows the parallelized implementation of the algorithm in CUDA. The
 | Implementation                                  | Average Execution Time (ms) | Error(s) | Loops | No. of Queries | No. of References |
 |-------------------------------------------------|--------------------|---------|-------|------------|------------|
 | **C (Single Query & Multiple Reference)**       |      20.6381             |     0   |   10   |      1     |     87     |     
-| **C (Multiple Query & Multiple Reference)**     |           57.957         |     0   |   10   |      3     |     87     |
-| **C (Multiple Query & Multiple Reference)**     |           164.0482         |     0   |   10   |      10     |     87     |
+| **C (Multiple Query & Multiple Reference [3])**     |           57.957         |     0   |   10   |      3     |     87     |
+| **C (Multiple Query & Multiple Reference [10])**     |           164.0482         |     0   |   10   |      10     |     87     |
 | **CUDA (Single Query & Multiple Reference)**    |         4.1042           |     0   |   10   |      1     |      87     |
-| **CUDA (Multiple Query & Multiple Reference)**  |         3.7719           |     0   |   10   |      3     |      87    |
-| **CUDA (Multiple Query & Multiple Reference)**  |         4.1299           |     0   |   10   |      10     |      87    |
+| **CUDA (Multiple Query & Multiple Reference [3])**  |         3.7719           |     0   |   10   |      3     |      87    |
+| **CUDA (Multiple Query & Multiple Reference [10])**  |         4.1299           |     0   |   10   |      10     |      87    |
 
 Length of References: 5k - 17k characters
 ## Analysis
