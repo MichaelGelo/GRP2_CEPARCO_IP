@@ -28,7 +28,7 @@ The program utilizes DNA datasets sourced from the National Center for Biotechno
 
 |    C- Single Query & Multiple Reference   |  C- Multiple Query & Multiple Reference   |
 | ----------------------------------------- | ----------------------------------------- |
-|  <img src="https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/4c8a941a1cb7277bfbdd0dc9e6583f211c4f68b4/image/C-sq-mr.png" alt="image alt" width="300"> | <img src="https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/b781e3793e56de4a8152779d2b5f08ce458980aa/image/C-mq-mr.png" alt="image alt" width="300"> <br><img src="https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/499c65b8534ebe1c434a72df68360d1b8701d1b0/image/Cmm-new.png" alt="image alt" width="300"> |
+|  <img src="https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/4c8a941a1cb7277bfbdd0dc9e6583f211c4f68b4/image/C-sq-mr.png" alt="image alt" width="500"> | <img src="https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/b781e3793e56de4a8152779d2b5f08ce458980aa/image/C-mq-mr.png" alt="image alt" width="500"> <br><img src="https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/499c65b8534ebe1c434a72df68360d1b8701d1b0/image/Cmm-new.png" alt="image alt" width="500"> |
 
 |    CUDA- Single Query & Multiple Reference   |  CUDA- Multiple Query & Multiple Reference   |
 | ----------------------------------------- | ----------------------------------------- |
