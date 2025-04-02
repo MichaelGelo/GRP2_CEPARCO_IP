@@ -67,6 +67,13 @@ This section shows the parallelized implementation of the algorithm in CUDA. The
 | **CUDA (Multiple Query & Multiple Reference [3] )**  |         3.7719           |     0   |   10   |      3     |      87    | 15.3655x |
 | **CUDA (Multiple Query & Multiple Reference [10] )**  |         4.1299           |     0   |   10   |      10     |      87    | 39.722x |
 
+# Speedup Ratio: C vs. CUDA
+| Implementation                                  | Speedup Ratio |
+|-------------------------------------------------------------||------------|
+| **C vs CUDA (Single Query & Multiple Reference)**      | 5.0285x | 
+| **C vs CUDA(Multiple Query & Multiple Reference [3] )**     | 15.3655x |
+| **C vs CUDA(Multiple Query & Multiple Reference [10] )**     |  39.722x |
+
 Length of References: 5k - 17k characters
 ## Analysis
 
