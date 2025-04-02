@@ -58,7 +58,7 @@ This section shows the parallelized implementation of the algorithm in CUDA. The
 
 # Performance Comparison: C vs. CUDA
 
-| Implementation                                  | Average Execution Time (ms) | Error(s) | Loops | No. of Queries | No. of References | Speedup Ratio (CUDA over C)|
+| Implementation                                  | Average Execution Time (ms) | Error(s) | Loops | No. of Queries | No. of References | Speedup Ratio (CUDA over C counterpart)|
 |-------------------------------------------------|--------------------|---------|-------|------------|------------|------------|
 | **C (Single Query & Multiple Reference)**       |      20.6381             |     0   |   10   |      1     |     87     |  1x |   
 | **C (Multiple Query & Multiple Reference [3] )**     |           57.957         |     0   |   10   |      3     |     87     | 1x |
