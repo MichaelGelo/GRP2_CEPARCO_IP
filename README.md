@@ -48,7 +48,7 @@ Description here
 
 |    CUDA- Single Query & Multiple Reference   |  CUDA- Multiple Query & Multiple Reference   |
 | ----------------------------------------- | ----------------------------------------- |
-|  ![image alt](picture here) | ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/4c8a941a1cb7277bfbdd0dc9e6583f211c4f68b4/image/CUDAmm-kernel.png https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/4c8a941a1cb7277bfbdd0dc9e6583f211c4f68b4/image/CUDAmm-error.png) |
+|  ![image alt](picture here) | ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/4c8a941a1cb7277bfbdd0dc9e6583f211c4f68b4/image/CUDAmm-kernel.png) ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/4c8a941a1cb7277bfbdd0dc9e6583f211c4f68b4/image/CUDAmm-error.png) |
 
 Description here
 
