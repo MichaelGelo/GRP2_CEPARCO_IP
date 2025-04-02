@@ -35,7 +35,7 @@ The program utilizes DNA datasets sourced from the National Center for Biotechno
 |  ![image alt](picture here) | ![image alt](picture here) |
 
 ---
-### **iii.) Screenshot of the Program Output with correctness check (C)**
+### **iii.) Screenshot of the Code with correctness check (C)**
 
 |    C- Single Query & Multiple Reference   |  C- Multiple Query & Multiple Reference   |
 | ----------------------------------------- | ----------------------------------------- |
@@ -44,7 +44,7 @@ The program utilizes DNA datasets sourced from the National Center for Biotechno
 Description here
 
 ---
-### **iv.) Screenshot of the Program Output, including correctness check (CUDA)**
+### **iv.) Screenshot of the Code Output with correctness check (CUDA)**
 
 |    CUDA- Single Query & Multiple Reference   |  CUDA- Multiple Query & Multiple Reference   |
 | ----------------------------------------- | ----------------------------------------- |
