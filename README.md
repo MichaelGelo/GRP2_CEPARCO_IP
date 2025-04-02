@@ -35,7 +35,7 @@ The program utilizes DNA datasets sourced from the National Center for Biotechno
 |  ![image alt](picture here) | ![image alt](picture here) |
 
 ---
-### **iii.) Screenshot of the Code with correctness check (C)**
+### **iii.) Screenshot of the Code (C)**
 
 |    C- Single Query & Multiple Reference   |  C- Multiple Query & Multiple Reference   |
 | ----------------------------------------- | ----------------------------------------- |
@@ -58,7 +58,7 @@ Description here
 
 # Performance Comparison: C vs. CUDA
 
-| Implementation                                  | Execution Time (ms) | Error(s) | Loops | No. of Query | No. of Reference |
+| Implementation                                  | Average Execution Time (ms) | Error(s) | Loops | No. of Query | No. of Reference |
 |-------------------------------------------------|--------------------|---------|-------|------------|------------|
 | **C (Single Query & Multiple Reference)**       |                    |         |       |            |            |     
 | **C (Multiple Query & Multiple Reference)**     |                    |         |       |            |            |
