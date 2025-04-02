@@ -39,7 +39,7 @@ The program utilizes DNA datasets sourced from the National Center for Biotechno
 
 |    C- Single Query & Multiple Reference   |  C- Multiple Query & Multiple Reference   |
 | ----------------------------------------- | ----------------------------------------- |
-|  ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/fab0f8de8ab8d70c1875c4f52f924e664517d57c/image/Csqmr-levCode.png) ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/c6072b6269867522ba91176e041ca585818046b6/image/Csqmr-main.png) |![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/fab0f8de8ab8d70c1875c4f52f924e664517d57c/image/Csqmr-levCode.png) ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/c6072b6269867522ba91176e041ca585818046b6/image/Cmqmr-main.png) |
+| ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/fab0f8de8ab8d70c1875c4f52f924e664517d57c/image/Csqmr-levCode.png) ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/c6072b6269867522ba91176e041ca585818046b6/image/Csqmr-main.png) | ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/fab0f8de8ab8d70c1875c4f52f924e664517d57c/image/Csqmr-levCode.png) ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/c6072b6269867522ba91176e041ca585818046b6/image/Cmqmr-main.png) |
 
 The images show the main code of the sequential C implmentation of Hyyro's bit-vector algorithm for both single query and multiple query multiple reference examples. The main algorithm of Hyyro is found in the bit_vector_levenshtein function. This c implementation of the algorithm will also serve as the correctness checker for the CUDA implementation of the algorithm.  
 
