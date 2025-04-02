@@ -60,10 +60,10 @@ This section shows the parallelized implementation of the algorithm in CUDA. The
 
 | Implementation                                  | Average Execution Time (ms) | Error(s) | Loops | No. of Query | No. of Reference |
 |-------------------------------------------------|--------------------|---------|-------|------------|------------|
-| **C (Single Query & Multiple Reference)**       |                    |         |       |            |            |     
-| **C (Multiple Query & Multiple Reference)**     |                    |         |       |            |            |
-| **CUDA (Single Query & Multiple Reference)**    |         4.1042           |         |       |            |            |
-| **CUDA (Multiple Query & Multiple Reference)**  |                    |         |       |            |            |
+| **C (Single Query & Multiple Reference)**       |      20.6381             |     0   |   10   |      1     |     87     |     
+| **C (Multiple Query & Multiple Reference)**     |           57.957         |     0   |   10   |      3     |     87     |
+| **CUDA (Single Query & Multiple Reference)**    |         4.1042           |     0   |   10   |      1     |      87     |
+| **CUDA (Multiple Query & Multiple Reference)**  |         3.7719           |     0   |   10   |      3     |      87    |
 
 ## Analysis
 
