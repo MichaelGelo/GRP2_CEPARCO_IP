@@ -21,7 +21,7 @@ The program utilizes DNA datasets sourced from the National Center for Biotechno
 
 ---
 ### **i.) Youtube Video**
-[Group 2 Presentation](link here)
+[Group 2 Presentation]([link here](https://youtu.be/fyQiI6febiI))
 
 ---
 ### **ii.) Screenshot of the Program Output with execution time**
