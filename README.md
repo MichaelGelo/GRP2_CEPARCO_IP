@@ -32,7 +32,7 @@ The program utilizes DNA datasets sourced from the National Center for Biotechno
 
 |    CUDA- Single Query & Multiple Reference   |  CUDA- Multiple Query & Multiple Reference   |
 | ----------------------------------------- | ----------------------------------------- |
-|  ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/4c8a941a1cb7277bfbdd0dc9e6583f211c4f68b4/image/CUDAsm-result.png) | ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/4c8a941a1cb7277bfbdd0dc9e6583f211c4f68b4/image/CUDAmm-result.png) |
+|  ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/4c8a941a1cb7277bfbdd0dc9e6583f211c4f68b4/image/CUDAsm-result.png) | ![image alt]() |
 
 ---
 ### **iii.) Screenshot of the Code (C)**
@@ -64,14 +64,18 @@ This section shows the parallelized implementation of the algorithm in CUDA. The
 | **C (Multiple Query & Multiple Reference)**     |           57.957         |     0   |   10   |      3     |     87     |
 | **CUDA (Single Query & Multiple Reference)**    |         4.1042           |     0   |   10   |      1     |      87     |
 | **CUDA (Multiple Query & Multiple Reference)**  |         3.7719           |     0   |   10   |      3     |      87    |
+| **CUDA (Multiple Query & Multiple Reference)**  |         3.7719           |     0   |   10   |      10     |      87    |
 
+Length of References: 5k - 17k characters
 ## Analysis
 
-Description here
+Based on the results, the performance of the CUDA program with parallelization is faster than the C program for both single query and multiple query versions. The CUDA implementation of the program for single query and multiple reference is 5.0285 times faster that the implementation in C. Similarly, the CUDA code for multiple query and multiple reference is 15.3655 times faster than the C implmentation. These results prove that as the number of data to be processed increases, through query or through reference count, the speedup of the parallel execution increases when compared to the sequential execution. This shows that the sequential execution of the code struggles as the data increases. The parallelized implementation of the data,on the other hand, is shown to even be faster in its implementation of the multiple queries.These results can prove that the amount of data that being processed is being handled well by the CUDA program and there is not any noticeable increase in the execution time in that data range. The lack of noticeable increase in the execution time could mean that the CUDA program is still not using all of its threads, showcasing that it was still able to handle the increase in the amount of data.
 
 ---
 ### **vi.) Discussion**
 
-Description here
+During the creation of this project, there were many struggles that the group faced. The first struggle we faced is with the translation of the algorithm into code, where the results we had were uncertain. Throughout the further implementation of the project, specifically in the creation of the parallelized CUDA code. The group did a lot of testing to find out what method of parallelization will be used. in the end, we decided on a parallelized implementation of the program through the use  of multiple threads exeucting all at the same time. Additionally, we also struggled in the implementation of the kernel and the general speeding up of the CUDA program. 
+
+In our implementation of the kernel, we optimized its parameter passing, memory allocation, how it adds parameters to the algorithm, and its acquisition of datasets. These aspects of the CUDA program, although not directly related to our main way of parallelizing the code, adds to the increase in the performance of the program. Every small detail the the group could optimize shaved the execution times, going down from a previous execution time of 7ms-9ms to the current 4ms time.
 
 
