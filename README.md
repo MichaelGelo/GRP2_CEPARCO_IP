@@ -32,7 +32,7 @@ The program utilizes DNA datasets sourced from the National Center for Biotechno
 
 |    CUDA- Single Query & Multiple Reference   |  CUDA- Multiple Query & Multiple Reference   |
 | ----------------------------------------- | ----------------------------------------- |
-|  ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/4c8a941a1cb7277bfbdd0dc9e6583f211c4f68b4/image/CUDAsm-result.png) | ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/1cd45b8688a66018a3249561df18c9d5018b4e41/image/CUDAmm-result.png) ![image alt](https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/1cd45b8688a66018a3249561df18c9d5018b4e41/image/CUDAmm-new.png) |
+|  <img src="https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/4c8a941a1cb7277bfbdd0dc9e6583f211c4f68b4/image/CUDAsm-result.png" alt="image alt" width="500"> | <img src="https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/1cd45b8688a66018a3249561df18c9d5018b4e41/image/CUDAmm-result.png" alt="image alt" width="500"><br><img src="https://github.com/MichaelGelo/GRP2_CEPARCO_IP/blob/1cd45b8688a66018a3249561df18c9d5018b4e41/image/CUDAmm-new.png" alt="image alt" width="500"> |
 
 ---
 ### **iii.) Screenshot of the Code (C)**
