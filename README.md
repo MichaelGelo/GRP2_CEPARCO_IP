@@ -58,14 +58,15 @@ This section shows the parallelized implementation of the algorithm in CUDA. The
 
 # Performance Comparison: C vs. CUDA
 
-| Implementation                                  | Average Execution Time (ms) | Error(s) | Loops | No. of Queries | No. of References |
-|-------------------------------------------------|--------------------|---------|-------|------------|------------|
-| **C (Single Query & Multiple Reference)**       |      20.6381             |     0   |   10   |      1     |     87     | 
-| **C (Multiple Query & Multiple Reference [3] )**     |           57.957         |     0   |   10   |      3     |     87     |
-| **C (Multiple Query & Multiple Reference [10] )**     |           164.0482         |     0   |   10   |      10     |     87     |
-| **CUDA (Single Query & Multiple Reference)**    |         4.1042           |     0   |   10   |      1     |      87     |
-| **CUDA (Multiple Query & Multiple Reference [3] )**  |         3.7719           |     0   |   10   |      3     |      87    |
-| **CUDA (Multiple Query & Multiple Reference [10] )**  |         4.1299           |     0   |   10   |      10     |      87    |
+| Implementation                                  | Avg. Exec. Time (ms) | Error(s) | Loops | No. of Queries | No. of References | AGX Orin Exec. Time (ms) |
+|-------------------------------------------------|----------------------|----------|--------|----------------|-------------------|---------------------------|
+| **C (Single Query & Multiple Reference)**       | 20.6381              |    0     | 10     | 1              | 87                | none                |
+| **C (Multiple Query & Multiple Reference [3])** | 57.957               |    0     | 10     | 3              | 87                | none              |
+| **C (Multiple Query & Multiple Reference [10])**| 164.0482             |    0     | 10     | 10             | 87                | none            |
+| **CUDA (Single Query & Multiple Reference)**    | 4.1042               |    0     | 10     | 1              | 87                | 7.609               |
+| **CUDA (Multiple Query & Multiple Reference [3])**| 3.7719              |    0     | 10     | 3              | 87                | none               |
+| **CUDA (Multiple Query & Multiple Reference [10])**| 4.1299             |    0     | 10     | 10             | 87                | 108.409               |
+
 
 # Speedup Ratio: CUDA over C
 
